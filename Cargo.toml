@@ -11,10 +11,10 @@ repository = "https://github.com/jedisct1/rust-ct-codecs"
 categories = ["no-std", "cryptography", "encoding"]
 readme = "README.md"
 
-[profile.release]
-codegen-units = 1
-incremental = false
-panic = "abort"
+# [profile.release]
+# codegen-units = 1
+# incremental = false
+# panic = "abort"
 
 [features]
 default = ["std"]
